@@ -18,5 +18,9 @@ gradlePlugin {
             id = "enoturismecatalunya.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
+        register("androidLibrary") {
+            id = "enoturismecatalunya.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
     }
 }
