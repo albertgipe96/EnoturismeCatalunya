@@ -62,3 +62,4 @@ android-library = { id = "com.android.library", version.ref = "agp" }
 enoturismecatalunya-android-application = { id = "enoturismecatalunya.android.application", version = "unspecified" }
 enoturismecatalunya-android-library = { id = "enoturismecatalunya.android.library", version = "unspecified" }
 enoturismecatalunya-android-library-compose = { id = "enoturismecatalunya.android.library.compose", version = "unspecified" }
+enoturismecatalunya-jvm-library = { id = "enoturismecatalunya.jvm.library", version = "unspecified" }

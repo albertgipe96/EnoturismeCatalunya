@@ -25,3 +25,4 @@ rootProject.name = "EnoturismeCatalunya"
 include(":app")
 include(":do:data")
 include(":do:presentation")
+include(":do:domain")
