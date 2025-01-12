@@ -8,6 +8,26 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.9.3"
 composeBom = "2024.04.01"
+jetbrainsKotlinJvm = "2.0.0"
+androidTools = "31.2.2"
+ksp = "2.0.0-1.0.21"
+room = "2.6.1"
+desugar_jdk_libs = "2.0.4"
+coroutines = "1.8.0"
+composeCompiler = "1.5.9"
+appcompat = "1.7.0"
+material = "1.12.0"
+devtoolsKsp = "2.0.20-1.0.24"
+hiltAndroid = "2.52"
+navigationCompose = "1.2.0"
+
+# Project versions
+projectApplicationId = "com.development.enoturismecatalunya"
+projectVersionName = "1.0"
+projectMinSdkVersion = "26"
+projectTargetSdkVersion = "35"
+projectCompileSdkVersion = "35"
+projectVersionCode = "1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -24,9 +44,30 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines"}
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "navigationCompose" }
+
+# Gradle
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+android-tools-common = { group = "com.android.tools", name = "common", version.ref = "androidTools" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+room-gradlePlugin = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "room" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "devtoolsKsp" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+enoturismecatalunya-android-application = { id = "enoturismecatalunya.android.application", version = "unspecified" }
+enoturismecatalunya-android-library = { id = "enoturismecatalunya.android.library", version = "unspecified" }
+enoturismecatalunya-android-library-compose = { id = "enoturismecatalunya.android.library.compose", version = "unspecified" }
+enoturismecatalunya-jvm-library = { id = "enoturismecatalunya.jvm.library", version = "unspecified" }
