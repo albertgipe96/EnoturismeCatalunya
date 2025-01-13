@@ -18,6 +18,7 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
                 apply("org.jetbrains.kotlin.plugin.compose")
                 apply("com.google.devtools.ksp")
                 apply("com.google.dagger.hilt.android")
+                apply("org.jetbrains.kotlin.plugin.serialization")
             }
             extensions.configure<ApplicationExtension> {
                 defaultConfig {
@@ -34,6 +35,7 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
                 add("implementation", libs.findLibrary("hilt").get())
                 add("ksp", libs.findLibrary("hilt.compiler").get())
                 add("implementation", libs.findLibrary("hilt.navigation.compose").get())
+                add("implementation", libs.findLibrary("kotlinx.serialization.json").get())
             }
         }
     }

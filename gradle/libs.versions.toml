@@ -1,6 +1,6 @@
 [versions]
 agp = "8.8.0-alpha05"
-kotlin = "2.0.0"
+kotlin = "2.0.20"
 coreKtx = "1.15.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -10,7 +10,7 @@ activityCompose = "1.9.3"
 composeBom = "2024.04.01"
 jetbrainsKotlinJvm = "2.0.0"
 androidTools = "31.2.2"
-ksp = "2.0.0-1.0.21"
+ksp = "2.0.20-1.0.24"
 room = "2.6.1"
 desugar_jdk_libs = "2.0.4"
 coroutines = "1.8.0"
@@ -19,7 +19,10 @@ appcompat = "1.7.0"
 material = "1.12.0"
 devtoolsKsp = "2.0.20-1.0.24"
 hiltAndroid = "2.52"
-navigationCompose = "1.2.0"
+hiltNavigationCompose = "1.2.0"
+navigationCompose = "2.8.5"
+json = "1.8.0"
+coil = "3.0.4"
 
 # Project versions
 projectApplicationId = "com.development.enoturismecatalunya"
@@ -48,7 +51,11 @@ desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs", version.ref 
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines"}
 hilt = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "navigationCompose" }
+hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "json" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+coil-compose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil" }
+coil-network = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coil" }
 
 # Gradle
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
@@ -64,6 +71,7 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "devtoolsKsp" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 android-library = { id = "com.android.library", version.ref = "agp" }

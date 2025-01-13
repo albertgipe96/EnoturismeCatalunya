@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "DO Alella",
+      "description": "És la DO més petita de Catalunya i una de les més antigues. Es va crear el 1953 amb gairebé 1500 hectàrees de vinya, quasi cinc vegades més de les que té actualment. És coneguda pels vins blancs, elaborats principalment amb pansa blanca. Darrerament, es van recuperant també les negres mataró (monastrell) i garnatxa, així com les blanques picapoll i garnatxa blanca.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-terra-alta-baner.jpg",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-do-alella.jpg",
+      "email": "doalella@doalella.org",
+      "phone": "935 559 153",
+      "website": "www.doalella.com"
+    },
+    {
+      "id": 2,
+      "name": "DO Catalunya",
+      "description": "La superfície inscrita sota la DO Catalunya s’estén per 41.000 ha i 420 termes municipals. Actualment, la DO Cat comercialitza més de 50 milions d’ampolles l’any, representant més del 50% del vi català amb denominació d’origen. La DO CATALUNYA es va crear l’any 1999 estenent-se per totes les zones on tradicionalment s’havia conreat la vinya: sobreposant-se així a altres denominacions catalanes ja creades i incorporant algunes zones que quedaven excloses de DO i on s’elaboraven vins de gran qualitat. L’amplitud de la zona de producció es tradueix en un ampli ventall de sòls, climes i varietats de raïm (autòctones i internacionals perfectament adaptades) que faciliten a l’elaborador un marc divers, flexible i creatiu en la concepció dels seus vins. La DO Catalunya acull vins tradicionals i també de caràcter més innovador amb un mateix denominador comú: la recerca de l’excel·lència.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-catalunya.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-do-catalunya.jpg",
+      "email": "premsa@do-catalunya.com",
+      "phone": "977 328 103",
+      "website": "docat.cat"
+    },
+    {
+      "id": 3,
+      "name": "DO Conca de Barberà",
+      "description": "La Conca de Barberà és un territori vitivinícola amb una forta vinculació amb la història i la vocació agrària, unes qualitats que no han impedit que en aquesta terra pervisqui un intens esperit emprenedor i pioner, que fa de la regió un lloc de singular atractiu. Paisatge, història, productors innovadors i un raïm únic, el trepat, conformen una comarca vitivinícola com poques, on el passat ha deixat empremta en el present i marca el camí del futur. Visitar la Conca de Barberà és fer un passeig per la història de la viticultura, és tastar els vins dels cellers, és meravellar-se amb les famoses cooperatives modernistes que Àngel Guimerà anomenà les Catedrals del Vi i perdre's per les vinyes per descobrir de primera mà el sentiment que s'hi viu, gaudint de l'impressionant patrimoni històric i cultural del territori.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-conca-barbera.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-conca-de-barbera.jpg",
+      "email": "info@doconcadebarbera.com",
+      "phone": "977 926 905",
+      "website": "www.doconcadebarbera.com"
+    },
+    {
+      "id": 4,
+      "name": "DO Costers del Segre",
+      "description": "La Denominació d’Origen Costers del Segre és un mosaic format per set territoris repartits al llarg de tota la conca del riu Segre i del Pirineu lleidatà: Pallars, Segrià, Urgell, Artesa de Segre, Raimat, Garrigues i Valls del Riu Corb. Tots units amb un únic objectiu: dotar d’entitat pròpia la vitivinicultura de la província de Lleida. Conèixer la seva cultura del vi és la millor manera de descobrir les terres lleidatanes. I és que la DO Costers del Segre compta amb unes característiques pròpies i ben definides que la doten de personalitat i la fan diferent: una situació privilegiada de sòls amb composició calcària, un clima continental amb influència mediterrània que presenta fortes oscil·lacions tèrmiques estacionals i diàries, vinyes d’altura que donen lloc a vins de muntanya, treballs de viticultura ecològica, compromís amb la sostenibilitat, recuperació de varietats històriques, etc.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-costers-segre.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-costers-segre.jpg",
+      "email": "info@costersdelsegre.es",
+      "phone": "973 264 583",
+      "website": "www.costersdelsegre.es"
+    },
+    {
+      "id": 5,
+      "name": "DO Empordà",
+      "description": "És una històrica denominació vinícola que elabora vins tocats per la tramuntana, que els aporta personalitat en concentrar els sucres i les aromes dels raïms. La garnatxa i la carinyena són les joies de la DO, amb una gran riquesa varietal, ja que produeix totes les varietats de garnatxes i carinyenes - negra, blanca i roja-. La gamma de vins inclou negres, blancs, rosats, dolços i escumosos.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-emporda-baner.jpg",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-emporda.jpg",
+      "email": "info@doemporda.cat",
+      "phone": "972 50 75 13",
+      "website": "www.doemporda.cat"
+    },
+    {
+      "id": 6,
+      "name": "DO Montsant",
+      "description": "A la DO Montsant, el paisatge i el vi han anat de la mà al llarg dels segles. Les vinyes velles, cuidades com autèntics tresors, tenen Història amb majúscules. Una Història que, amb empenta i entusiasme renovat, camina cap al futur. El paisatge ha estat entès sempre per la DO com a element d’identitat i com a valor cultural. En una zona eminentment agrícola, aquest paisatge forma part de la riquesa patrimonial que, des de sempre, ha estat considerat un dels béns més preuats pels viticultors i cellers que conformen la DO Montsant. I, com no podia ser d’una altra manera, els vins de la DO Montsant són fidels al seu origen, resultant uns vins únics que parlen de com un clima de contrastos, l’orografia accidentada, la variabilitat de sòls, les varietats de raïm i la mà de l’home influeixen per donar vida a uns vins singulars, amb identitat pròpia i amb un marcat i inconfusible caràcter.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-montsant.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-montsant.jpg",
+      "email": "info@domontsant.com",
+      "phone": "",
+      "website": "www.domontsant.com"
+    },
+    {
+      "id": 7,
+      "name": "DO Penedès",
+      "description": "És la zona amb més història i tradició vinícola de Catalunya. Els seus terrers conformen paisatges privilegiats per conrear la vinya per les diferències climàtiques, paisatgístiques i de sòls, des del mar fins a més de 800 metres d'alçada. És coneguda per l'alta qualitat dels seus vins, tant en blancs, amb la varietat xarel3lo al capdavant, com en negres.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-penedes.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-penedes.jpg",
+      "email": "dopenedes@dopenedes.cat",
+      "phone": "93 890 48 11",
+      "website": "www.dopenedes.cat"
+    },
+    {
+      "id": 8,
+      "name": "DO Pla de Bages",
+      "description": "Situada als peus de Montserrat, és una de les DO més petites. Inclou 15 cellers, hereus d'una llarga tradició vitivinícola des de l'època romana. De fet, es diu que el nom de la comarca ve de Bacus, el déu pagà del vi. Les barraques de pedra seca i les tines a peu de vinya són testimonis del que va ser la zona amb més vinya de Catalunya. Les varietats autòctones, com la picapoll, donen identitat al territori.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-pla-bages.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-bages.jpg",
+      "email": "info@dopladebages.com",
+      "phone": "93 874 82 36",
+      "website": "www.dopladebages.com"
+    },
+    {
+      "id": 9,
+      "name": "DO Qualificada Priorat",
+      "description": "La llicorella, una pissarra característica del Priorat històric, i l'orografia fan que el conreu de la vinya sigui complicat i que la producció de vi sigui baixa. Tot i això, la qualitat dels vins és excepcional. La prova és que és la única DO Qualificada catalana, la màxima menció de qualitat. Els vins negres, blancs i rosats tenen prestigi arreu. Les varietats garnatxa i carinyena són les majoritàries.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-priorat.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-priorat.jpg",
+      "email": "info@doqpriorat.org",
+      "phone": "977 83 94 95",
+      "website": "www.doqpriorat.org"
+    },
+    {
+      "id": 10,
+      "name": "DO Tarragona",
+      "description": "L’àmfora que hi ha al logotip de la Denominació d’Origen Tarragona sintetitza la presència mil·lenària de la vitivinicultura en aquesta Denominació d’Origen, formada actualment per una trentena de cellers. El clima de la DO Tarragona i la influència directa del mar, amb una orografia suau i un terreny excepcional, ens ofereixen uns vins suaus, frescos i típicament mediterranis. Els blancs s’elaboren principalment amb varietats autòctones, destacant entre elles el macabeu, l’aposta decidida per singularitzar la DO Tarragona a partir d’aquest raïm; rosats; negres ferms i aromàtics, majoritàriament a partir de varietats com l’ull de llebre o la  garnatxa, i vins escumosos, a partir del mètode tradicional i l’ancestral. Capítol a part mereixen els vins dolços i de licor, els anomenats Tarragona Clàssics, a partir dels quals es va fundar la DO Tarragona fa  més de 75 anys.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-tarragona.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-tarragona.jpg",
+      "email": "info@dotarragona.cat",
+      "phone": "977 217931",
+      "website": "https://www.dotarragona.cat"
+    },
+    {
+      "id": 11,
+      "name": "DO Terra Alta",
+      "description": "La DO Terra Alta, una de les set denominacions d’origen històriques de Catalunya, és la zona vinícola catalana més meridional, situada entre el riu Ebre i les terres del Matarranya. La seva situació geogràfica té un alt valor paisatgístic, no en va les Terres de l’Ebre han estat reconegudes per la UNESCO com a Reserva de la Biosfera, amb un enorme potencial vitivinícola. Ja al segle XVII es troben testimonis que deixen constància d’una plantació a Gandesa denominada vernatxa. Actualment, a la Terra Alta es conrea el 33% de la Garnatxa blanca mundial, un percentatge que suposa el 75% de la producció a Espanya i el 90% de la Garnatxa blanca a Catalunya. La DO Terra Alta és, sens dubte, l’ànima de la Garnatxa blanca. Tant és així que compta amb un distintiu de control específic de Garnatxa blanca 100%.",
+      "logoUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/logo-terra-alta.png",
+      "imageUrl": "https://incavi.gencat.cat/.content/007-coneix-vi-catala/denominacions-origen-catalanes/paisatge-terra-alta.jpg",
+      "email": "info@doterraalta.com",
+      "phone": "977 42 12 78",
+      "website": "www.doterraalta.com"
+    }
+  ]
+}
