@@ -7,18 +7,20 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
+import com.development.core.domain.usecases.OpenDialUseCase
+import com.development.core.domain.usecases.SendEmailUseCase
+import com.development.dos.domain.model.Cellar
 import com.development.dos.domain.model.Do
+import com.development.dos.domain.usecases.GetDoCellarsUseCase
 import com.development.dos.presentation.api.NavRoute
-import com.development.dos.presentation.internal.dolist.DoListState
-import com.development.dos.presentation.internal.model.DoListItem
-import com.development.dos.presentation.internal.usecases.GetDoDetailUseCase
+import com.development.dos.domain.usecases.GetDoDetailUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 sealed interface DoDetailState {
     data object Loading : DoDetailState
-    data class Loaded(val doDetail: Do) : DoDetailState
+    data class Loaded(val doDetail: Do, val cellars: List<Cellar>) : DoDetailState
     data class Error(val message: String) : DoDetailState
 }
 
@@ -31,7 +33,10 @@ internal sealed interface DoDetailEvent {
 @HiltViewModel
 internal class DoDetailViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
-    private val getDoDetailUseCase: GetDoDetailUseCase
+    private val getDoDetailUseCase: GetDoDetailUseCase,
+    private val getDoCellarsUseCase: GetDoCellarsUseCase,
+    private val openDialUseCase: OpenDialUseCase,
+    private val sendEmailUseCase: SendEmailUseCase
 ) : ViewModel() {
 
     private val id: Int = savedStateHandle.toRoute<NavRoute.DoDetail>().id
@@ -42,7 +47,16 @@ internal class DoDetailViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             getDoDetailUseCase(id)
-                .onSuccess { _state.value = DoDetailState.Loaded(it) }
+                .onSuccess { doDetail ->
+                    getDoCellarsUseCase(id)
+                        .onSuccess { cellars ->
+                            _state.value = DoDetailState.Loaded(doDetail, cellars)
+                        }
+                        .onFailure {
+                            Log.e("getDoCellarsUseCase", "Error: $it")
+                            _state.value = DoDetailState.Loaded(doDetail, emptyList())
+                        }
+                }
                 .onFailure {
                     Log.e("getDoDetailUseCase", "Error: $it")
                     _state.value = DoDetailState.Error("No s'ha pogut carregar el contingut")
@@ -52,22 +66,10 @@ internal class DoDetailViewModel @Inject constructor(
 
     fun onEvent(event: DoDetailEvent) {
         when (event) {
-            is DoDetailEvent.OpenDial -> manageOpenDialEvent()
-            is DoDetailEvent.SendEmail -> manageSendEmailEvent()
-            is DoDetailEvent.VisitWebsite -> manageVisitWebsiteEvent()
+            is DoDetailEvent.OpenDial -> openDialUseCase(event.phone)
+            is DoDetailEvent.SendEmail -> sendEmailUseCase(event.email)
+            is DoDetailEvent.VisitWebsite -> {}
         }
-    }
-
-    private fun manageOpenDialEvent() {
-
-    }
-
-    private fun manageSendEmailEvent() {
-
-    }
-
-    private fun manageVisitWebsiteEvent() {
-
     }
 
 }

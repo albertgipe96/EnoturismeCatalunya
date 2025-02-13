@@ -7,6 +7,8 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.designSystem)
+    implementation(projects.core.domain)
     implementation(projects.`do`.domain)
 
     // Navigation
@@ -16,10 +18,6 @@ dependencies {
     implementation(libs.coil.compose)
     implementation(libs.coil.network)
 
-    implementation(libs.androidx.activity.compose)
-    implementation(libs.androidx.ui)
-    implementation(libs.androidx.ui.graphics)
-    implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
     implementation(libs.androidx.core.ktx)

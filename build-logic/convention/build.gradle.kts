@@ -30,5 +30,18 @@ gradlePlugin {
             id = "enoturismecatalunya.jvm.library"
             implementationClass = "JvmLibraryConventionPlugin"
         }
+        register("jvm-test") {
+            id = "enoturismecatalunya.jvm.test"
+            implementationClass = "JvmTestConventionPlugin"
+        }
+        register("android-test") {
+            id = "enoturismecatalunya.android.test"
+            implementationClass = "AndroidTestConventionPlugin"
+        }
+        register("paparazzi") {
+            id = "enoturismecatalunya.paparazzi"
+            implementationClass = "PaparazziConventionPlugin"
+        }
+
     }
 }

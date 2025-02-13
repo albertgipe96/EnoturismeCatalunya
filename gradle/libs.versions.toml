@@ -23,6 +23,17 @@ hiltNavigationCompose = "1.2.0"
 navigationCompose = "2.8.5"
 json = "1.8.0"
 coil = "3.0.4"
+javaxInject = "1"
+junit5 = "5.11.4"
+kotest = "5.9.1"
+mockk = "1.13.16"
+hamcrest = "3.0"
+robolectric = "4.14.1"
+kluent = "1.73"
+turbine = "1.2.0"
+paparazzi = "1.3.5"
+kover = "0.9.1"
+detekt = "1.23.7"
 
 # Project versions
 projectApplicationId = "com.development.enoturismecatalunya"
@@ -56,6 +67,21 @@ kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serializa
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 coil-compose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil" }
 coil-network = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coil" }
+javax-inject = { module = "javax.inject:javax.inject", version.ref = "javaxInject" }
+
+junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junit5" }
+junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "junit5" }
+junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version.ref = "junit5" }
+junit-jupiter-vintage-engine = { group = "org.junit.vintage", name = "junit-vintage-engine", version.ref = "junit5" }
+kotest = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "kotest" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+mockk-android = { group = "io.mockk", name = "mockk-android", version.ref = "mockk" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+hamcrest = { group = "org.hamcrest", name = "hamcrest", version.ref = "hamcrest" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
+kluent = { group = "org.amshove.kluent", name = "kluent", version.ref = "kluent" }
+turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
+paparazzi = { group = "app.cash.paparazzi", name = "paparazzi", version.ref = "paparazzi" }
 
 # Gradle
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
@@ -66,6 +92,18 @@ room-gradlePlugin = { group = "androidx.room", name = "room-gradle-plugin", vers
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
+[bundles]
+compose = [
+    "androidx-activity-compose",
+    "androidx-ui",
+    "androidx-ui-graphics",
+    "androidx-ui-tooling-preview"
+]
+compose-debug = [
+    "androidx-ui-tooling",
+    "androidx-ui-test-manifest"
+]
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
@@ -75,7 +113,18 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+paparazzi = { id = "app.cash.paparazzi", version.ref = "paparazzi" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
+
+# Quality Plugins
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version = "12.1.2" }
+
+# Custom Plugins
 enoturismecatalunya-android-application = { id = "enoturismecatalunya.android.application", version = "unspecified" }
 enoturismecatalunya-android-library = { id = "enoturismecatalunya.android.library", version = "unspecified" }
 enoturismecatalunya-android-library-compose = { id = "enoturismecatalunya.android.library.compose", version = "unspecified" }
 enoturismecatalunya-jvm-library = { id = "enoturismecatalunya.jvm.library", version = "unspecified" }
+enoturismecatalunya-jvm-test = { id = "enoturismecatalunya.jvm.test", version = "unspecified" }
+enoturismecatalunya-android-test = { id = "enoturismecatalunya.android.test", version = "unspecified" }
+enoturismecatalunya-paparazzi = { id = "enoturismecatalunya.paparazzi", version = "unspecified" }

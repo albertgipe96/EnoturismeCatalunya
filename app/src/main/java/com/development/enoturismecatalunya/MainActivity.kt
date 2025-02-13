@@ -5,14 +5,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import com.development.core.designsystem.components.scaffold.EnoturismeCatalunyaScaffold
+import com.development.core.designsystem.components.scaffold.rememberScaffoldState
+import com.development.core.designsystem.theme.EnoturismeCatalunyaTheme
 import com.development.enoturismecatalunya.navigation.NavigationWrapper
-import com.development.enoturismecatalunya.ui.theme.EnoturismeCatalunyaTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -22,7 +19,12 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             EnoturismeCatalunyaTheme {
-                NavigationWrapper()
+                EnoturismeCatalunyaScaffold(
+                    scaffoldState = rememberScaffoldState(),
+                    modifier = Modifier.fillMaxSize()
+                ) { scaffoldState ->
+                    NavigationWrapper(scaffoldState = scaffoldState)
+                }
             }
         }
     }

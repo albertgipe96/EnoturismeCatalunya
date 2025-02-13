@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Alella Vinícola",
+      "description": "Som un celler familiar on dos germans realitzen les tasques de direcció del celler, des de les plantacions de les vinyes fins a la comercialització. Alella Vinícola, és un celler familiar creat el 1906 al cor de la DO Alella, a només 15 quilòmetres de Barcelona. Elaborem unes 90.000 ampolles anuals d'una dotzena de vins i realitzem diferents activitats relacionades amb el món del vi i la gastronomia. Disposem de restaurant propi al mateix celler modernista dissenyat per Jeroni Martorell, deixeble d'Antoni Gaudí. Marfil és la marca emblemàtica del celler des dels anys vint, ha estat al llarg del segle XX el vi blanc de Barcelona i exportat arreu del món. Seguim elaborant els vins que des de fa cent anys han marcat l'estil de la DO (vins blancs de Pansa Blanca i Garnatxa Blanca), hem recuperat vinificacions que havien quedat totalment oblidades (vins dolços i generosos) i estem innovant i reinventant la zona a través de vins radicalment originals mai elaborats a la zona (vins escumosos d'alta qualitat amb DO Alella).",
+      "imageUrls": [
+        "https://doalella.com/img/cms/Cellers/alella_vinicola.jpg"
+      ],
+      "email": "comercial@alellavinicola.com",
+      "phone": "935403842",
+      "website": "http://doalella.com/ca/content/9-alella-vinicola",
+      "location": {
+        "longitude": 41.494991665352295,
+        "latitude": 2.29598482673651
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alta Alella Mirgin",
+      "description": "Embolcallat pel Parc Natural de la Serralada de Marina, a tocar del Mediterrani i a contats quilòmetres de Barcelona, hi trobem el celler Alta Alella Mirgin, el somni dels Pujol-Busquets Guillén. Una família lligada a la viticultura. En Josep Maria i la Cristina han dedicat tota la vida a la cultura del vi i el Cava. Les seves filles, Mireia i Georgina, han crescut envoltades de vinyes, raïm, veremes i ampolles. Ho porten dins. Coneixement, passió, perseverança i dedicació. Un estil de vida. Una manera d'entendre el vi i el Cava amb responsabilitat, però sense deixar de banda la diversió. La innovació i l'aposta per les noves tendències. Compromesos amb l'entorn per oferir un producte avantguardista. Respectar la terra per brindar una nova experiència.",
+      "imageUrls": [
+        "https://doalella.com/img/cms/Cellers/alta_alella.jpg"
+      ],
+      "email": "visita@altaalella.wine",
+      "phone": "628 624 182",
+      "website": "https://altaalella.wine/",
+      "location": {
+        "longitude": 41.48701997791945,
+        "latitude": 2.28726962883606
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bouquet d’Alella",
+      "description": "Envoltats de vinyes, amb vistes al mar, al costat del poble d'Alella i abraçats pel Parc Natural de la Serralada Litoral, trobareu el Celler Bouquet d'Alella. Som la 14a generació de la família Bouquet, que ha mantingut la finca durant 5 segles, i el nostre repte és seguir-la fent sostenible elaborant vins ecològics, amb vinya pròpia i varietats tradicionals i oferint experiències enoturístiques a 15 quilòmetres de Barcelona. El nostre patrimoni: 2 masies d'alt valor històric i paisatgístic ubicades al Maresme, i 60 hectàrees de cultiu sostenible; bosc, conreu i vinya. A la part baixa de la Masia Can Boquet torbem el celler Bouquet d'Alella, on conviuen tradició i tecnologia; entre parets centenàries elaborem i criem vins amb les tècniques més innovadores, tenint cura de tot el procés, des de la vinya fins a l'ampolla. El nostre lema: Viu la tradició, experimenta la innovació.",
+      "imageUrls": [
+        "https://doalella.com/img/cms/Cellers/bouquet.jpg"
+      ],
+      "email": "",
+      "phone": "607 83 35 92",
+      "website": "https://bouquetdalella.com/",
+      "location": {
+        "longitude": 41.49824406872595,
+        "latitude": 2.297522715344474
+      }
+    },
+    {
+      "id": 4,
+      "name": "Celler Can Roda",
+      "description": "Coneix els seus inicis com a celler I plantació de vinyes. En 1864, Can Roda va ser adquirida per la família Bonaplata de Barcelona. Situada en un paratge privilegiat, aquesta masia amb tanta història segueix envoltada de vinyes i boscos. Can Roda s'ha convertit en un oasi natural a tocar de Barcelona ubicat al Parc Natural de Marina. Des de l'any 2010, la masia passa a elaborar vins dins la DO Alella, a la zona nord de Barcelona i afegeix així un capítol més a la seva història. La finca compta amb set hectàrees de vinyes amb les varietats pansa blanca, l'autòctona d'aquesta denominació d'origen, moscatell, merlot, i cabernet.",
+      "imageUrls": [
+        "https://doalella.com/img/cms/Cellers/canroda.jpg"
+      ],
+      "email": "info@cellercanroda.cat",
+      "phone": "679 19 62 72",
+      "website": "https://cellercanroda.cat/ca/",
+      "location": {
+        "longitude": 41.52293778211768,
+        "latitude": 2.2452944441802996
+      }
+    },
+    {
+      "id": 5,
+      "name": "Joaquim Batlle",
+      "description": "L'any 1999 en Joaquim Batlle seguint les passes del seu pare i avi, finalment aconsegueix empeltar a la seva finca les varietats autòctones tradicionals de la DO Alella; Pansa Blanca, Garnatxa blanca i Picapoll, aportant-los modernitat i expressió, tot creant uns vins ecològics de gran qualitat i personalitat pròpia. El celler està situat a Tiana, a 400 m d'altitud sobre el nivell del mar formant part de la Serralada de Marina. Una finca de 3 hectàrees anomenada la SENTIU. A tan sols 15 km de Barcelona. En aquest Celler tot té un simbolisme i una història com el nom dels nostres vins.",
+      "imageUrls": [
+        "https://doalella.com/img/cms/Cellers/QUIM%20BATLLE.jpg"
+      ],
+      "email": "enoturismo@joaquimbatlle.com",
+      "phone": "648 180 035",
+      "website": "https://www.vinosdealella.com/",
+      "location": {
+        "longitude": 41.49532197618204,
+        "latitude": 2.2689933558197004
+      }
+    },
+    {
+      "id": 6,
+      "name": "Raventós D Alella",
+      "description": "Raventós d'Alella no és únicament un projecte singular sinó que és la mateixa expressió de l'obsessió d'una nova generació que vol mostrar al món la importància real d'una regió i la seva varietat. Alella i la pansa blanca son per aquest projecte la mateixa cosa. La bodega està localitzada entre velles vinyes i boscos de l'interior de la serralada litoral que divideix a DO Alella.",
+      "imageUrls": [
+        "https://doalella.com/img/cms/Cellers/RdA.JPG"
+      ],
+      "email": "",
+      "phone": "",
+      "website": "http://www.raventoscodorniu.com/ca/bodegues/raventos-dalella",
+      "location": {
+        "longitude": 41.53410223065673,
+        "latitude": 2.256458126953015
+      }
+    },
+    {
+      "id": 7,
+      "name": "Roura",
+      "description": "En el bell paratge de la Vall De Rials, al començament dels anys vuitanta, Roura va concebre el projecte de continuar una tasca que ja va ser iniciada fa més de tres mil anys pels fenicis i que va arribar la seva màxima esplendor amb l'Imperi Romà. Hi ha constància històrica que el vi d'Alella va ser exportat a Roma des de l'any 140 a. de C. fins al 250 d. de C., i que era molt benvolgut per la noblesa romana. Convençut de les possibilitats que la zona oferia amb els seus ceps tradicionals i altres de recent implantació Roura es va embarcar en el projecte d'elaborar vins d'alta qualitat. El celler va iniciar la seva carrera comercial l'any 1990 amb l'aparició en el mercat d'un vi blanc del 89, un tinto Criança del 87 i un cava Brut Nature. Progressivament, i seguint un creixement raonable, es van anar afegint noves referències fins a completar la gamma actual.",
+      "imageUrls": [
+        "https://doalella.com/img/cms/Cellers/Roura%201.JPG"
+      ],
+      "email": "roura@roura.es",
+      "phone": "93 352 74 56",
+      "website": "http://ca.roura.es/",
+      "location": {
+        "longitude": 41.496999473944705,
+        "latitude": 2.304792399279039
+      }
+    }
+  ]
+}

@@ -19,6 +19,8 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
                 apply("com.google.devtools.ksp")
                 apply("com.google.dagger.hilt.android")
                 apply("org.jetbrains.kotlin.plugin.serialization")
+                apply("enoturismecatalunya.jvm.test")
+                apply("enoturismecatalunya.android.test")
             }
             extensions.configure<ApplicationExtension> {
                 defaultConfig {

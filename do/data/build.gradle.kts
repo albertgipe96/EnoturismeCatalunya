@@ -7,6 +7,8 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.domain)
+    implementation(projects.core.data)
     implementation(projects.`do`.domain)
 
     implementation(libs.androidx.core.ktx)

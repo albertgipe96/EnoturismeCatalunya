@@ -18,6 +18,7 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
                 apply("com.google.devtools.ksp")
                 apply("com.google.dagger.hilt.android")
                 apply("org.jetbrains.kotlin.plugin.serialization")
+                apply("enoturismecatalunya.android.test")
             }
             extensions.configure<LibraryExtension> {
                 configureKotlinAndroid(this)
@@ -27,6 +28,7 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
                     consumerProguardFiles("consumer-rules.pro")
                 }
                 dependencies {
+                    "implementation"(libs.findLibrary("kotlinx.coroutines.core").get())
                     "testImplementation"(kotlin("test"))
                     add("implementation", libs.findLibrary("hilt").get())
                     add("ksp", libs.findLibrary("hilt.compiler").get())
