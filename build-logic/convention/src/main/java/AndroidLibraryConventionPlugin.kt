@@ -2,6 +2,7 @@ import com.android.build.api.dsl.LibraryExtension
 import com.development.buildlogic.convention.ExtensionType
 import com.development.buildlogic.convention.configureBuildTypes
 import com.development.buildlogic.convention.configureKotlinAndroid
+import com.development.buildlogic.convention.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -14,7 +15,10 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
             pluginManager.run {
                 apply("com.android.library")
                 apply("org.jetbrains.kotlin.android")
-                apply("org.jetbrains.kotlin.plugin.compose")
+                apply("com.google.devtools.ksp")
+                apply("com.google.dagger.hilt.android")
+                apply("org.jetbrains.kotlin.plugin.serialization")
+                apply("enoturismecatalunya.android.test")
             }
             extensions.configure<LibraryExtension> {
                 configureKotlinAndroid(this)
@@ -24,7 +28,11 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
                     consumerProguardFiles("consumer-rules.pro")
                 }
                 dependencies {
+                    "implementation"(libs.findLibrary("kotlinx.coroutines.core").get())
                     "testImplementation"(kotlin("test"))
+                    add("implementation", libs.findLibrary("hilt").get())
+                    add("ksp", libs.findLibrary("hilt.compiler").get())
+                    add("implementation", libs.findLibrary("kotlinx.serialization.json").get())
                 }
             }
         }

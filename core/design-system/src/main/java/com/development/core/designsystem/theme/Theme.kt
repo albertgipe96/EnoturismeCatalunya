@@ -1,4 +1,4 @@
-package com.development.enoturismecatalunya.ui.theme
+package com.development.core.designsystem.theme
 
 import android.app.Activity
 import android.os.Build
@@ -12,32 +12,48 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = DarkRed50,
+    onPrimary = Neutral0,
+    primaryContainer = DarkRed10,
+    onPrimaryContainer = DarkRed90,
+    secondary = AntiqueWhite50,
+    onSecondary = Neutral100,
+    secondaryContainer = AntiqueWhite10,
+    onSecondaryContainer = AntiqueWhite90,
+    error = Error,
+    onError = Neutral0,
+    errorContainer = Error,
+    onErrorContainer = Neutral0,
+    background = AntiqueWhite10,
+    onBackground = Neutral100,
+    surface = AntiqueWhite10,
+    onSurface = Neutral100
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+    primary = DarkRed50,
+    onPrimary = Neutral0,
+    primaryContainer = DarkRed10,
+    onPrimaryContainer = DarkRed90,
+    secondary = AntiqueWhite50,
+    onSecondary = Neutral100,
+    secondaryContainer = AntiqueWhite10,
+    onSecondaryContainer = AntiqueWhite90,
+    error = Error,
+    onError = Neutral0,
+    errorContainer = Error,
+    onErrorContainer = Neutral0,
+    background = AntiqueWhite10,
+    onBackground = Neutral100,
+    surface = AntiqueWhite10,
+    onSurface = Neutral100
 )
 
 @Composable
 fun EnoturismeCatalunyaTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
